@@ -2,8 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-inquirer
-.prompt(
+
+// TODO: Create an array of questions for user input
+const questions = [
     {
         type: 'prompt',
         message: 'What is the name of the project?',
@@ -48,13 +49,7 @@ inquirer
         message: 'contact info?',
         name: 'contact',
     },
-   
-    
-
-)
-
-// TODO: Create an array of questions for user input
-const questions = [];
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -73,7 +68,12 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
+    inquirer.prompt(questions)
+    .then(function(data){
+        writeFile("README.mn", generateMarkdown(data));
+        console.log(data)
+    
+    })
 }
 
 // Function call to initialize app
