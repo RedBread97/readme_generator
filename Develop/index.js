@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -12,7 +14,7 @@ const questions = [
     },
     {
         type:'input',
-        message: 'What is the project about?please be as descriptive as possible.',
+        message: 'What is the project about? please be as descriptive as possible.',
         name: 'description',
     },
     {
@@ -70,7 +72,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data){
-        writeFile("README.mn", generateMarkdown(data));
+        writeToFile("README.md", generateMarkdown(data));
         console.log(data)
     
     })
