@@ -1,6 +1,6 @@
 # asd
 ----
-<a href="https://img.shields.io/badge/License-a-brightgreen"><img src="https://img.shields.io/badge/License-a-brightgreen"></a>
+<a href="https://img.shields.io/badge/License-undefined-brightgreen"><img src="https://img.shields.io/badge/License-undefined-brightgreen"></a>
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -15,9 +15,9 @@ asd
 ### Usage
 asd
 ### Contribution
-undefined
+asd
 ### Test-Instructions
-undefined
+asd
 ### Contact-Information
 [Github Profile](https://github.com/asd)
-undefined
+asd

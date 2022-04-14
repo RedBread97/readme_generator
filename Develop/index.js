@@ -8,49 +8,56 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: 'prompt',
-        message: 'What is the name of the project?',
-        name: 'title',
-    },
-    {
-        type:'input',
-        message: 'What is the project about? please be as descriptive as possible.',
-        name: 'description',
-    },
-    {
-        type:'input',
-        message: 'Table of Contents',
-        name: 'table of contents',
-    },
-    {
-        type:'input',
-        message: 'What installation is needed to run this application?',
-        name: 'installation',
-    },
-    {
-        type:'input',
-        message: 'How is the app used?',
-        name: 'usage',
-    }, {
-        type:'input',
-        message: 'What license is used?',
-        name: 'license',
-    },
-    {
-        type:'input',
-        message: 'Who contributed to the project?',
-        name: 'contributors',
-    },
-    {
-        type:'input',
-        message: 'What is your Github username?',
-        name: 'username',
-    },
-    {
-        type:'input',
-        message: 'contact info?',
-        name: 'contact',
-    },
+        type: "input",
+        name: "username",
+        message: "Enter Your Github Username"
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "Enter Your Email Address"
+      },
+      {
+        type: "input",
+        name: "title",
+        message: "What's Your Projects Name?"
+        },
+        {
+          type: "input",
+          name: "description",
+          message: "Enter A Descrition For Your Project"
+        },
+        {
+          type: "input",
+          name: "installation",
+          message: "Enter Your Projects Installation Instructions"
+        },
+        {
+          type: "input",
+          name: "usage",
+          message: "Enter Usage Info"
+        },
+        {
+            type: "input",
+            name: "contribution",
+            message: "Enter Your Project Contribution Guidelines"
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Enter Test Instructions"
+        },
+        { 
+            type: "checkbox",
+            message: "Licensing Options",
+            name: "license",
+            choices: [
+                "None",
+                "Apache2.0",
+                "GNU Public v3.0",
+                "MIT",
+              ]
+          }
 ];
 
 // TODO: Create a function to write README file
