@@ -1,6 +1,6 @@
-# faserfsaDf
+# READMR generator
 ----
-<a href="https://img.shields.io/badge/License-MIT-brightgreen"><img src="https://img.shields.io/badge/License-MIT-brightgreen"></a>
+<a href="https://img.shields.io/badge/License-Apache2.0-brightgreen"><img src="https://img.shields.io/badge/License-Apache2.0-brightgreen"></a>
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -10,19 +10,19 @@
 - [Contact Information](#contact-information)
 - [License](#license)
 ### Description
-asdfasef
+This application runs through the terminal using node.js to generate a read me file using intruge questions to style the file itself.
 ### Installation
-sdfadsf
+go into the terminal and type "npm i" to download inquire
 ### Usage
-sdfasdfds
+
 ### Contribution
-dfsdfsdfs
+
 ### Test-Instructions
-dsdfsdfsdf
+
 ### License
-MIT license
-    A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-[Click for more info] ([License: MIT](https://choosealicense.com/licenses/mit/))
+Apache2.0 license
+    A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+[Click for more info] (undefined)
 ### Contact-Information
-[Github Profile](https://github.com/asdafsaf)
-asdfasdf
+[Github Profile](https://github.com/RedBread97)
+97alane@gmail.com
